@@ -14,7 +14,7 @@ const server = https.createServer({
     cert: fs.readFileSync('cert.pem'),
     }, app);
     
-    server.listen(3030, () => console.log('narenltk running on port 3030'));
+    server.listen(3030, () => console.log('Rearc is running on port 3030'));
 
 
 
